@@ -29,6 +29,6 @@ It turns out that setting `packageOptions.source="remote"` in the snowpack.confi
   },
 ```
 
-NB: In my full project, I also have `installpackageOptions.installTypes=true`, and using either of these lines causes that *getUrlForPackage()* warning.
+~~NB: In my full project, I also have `installpackageOptions.installTypes=true`, and using either of these lines causes that *getUrlForPackage()* warning.~~ *The "installpackageOptions" comes from a typo in my project. This observatioin can be ignored. Commenting out `source: "remote"` is the answer.*
 
 **The current commit demonstrates the error** - commenting out `source: "remote"` makes it go away.
