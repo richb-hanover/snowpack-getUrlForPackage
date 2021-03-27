@@ -38,7 +38,7 @@ module.exports = {
     // installTypes: true,
   },
   packageOptions: {
-    // source: "remote",
+    source: "remote",
   },
   devOptions: {
     /* ... */
