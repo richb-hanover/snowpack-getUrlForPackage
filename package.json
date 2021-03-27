@@ -1,0 +1,20 @@
+{
+  "name": "snowpack-test-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "author": "Rich Brown <richb.hanover@gmail.com> (http://richb-hanover.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "snowpack": "^3.1.2"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.4.0",
+    "dayjs": "^1.10.4"
+  }
+}
